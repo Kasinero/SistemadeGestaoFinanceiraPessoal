@@ -83,15 +83,9 @@ public class LoginFrame extends JFrame {
         mainPanel.add(buttonPanel, BorderLayout.SOUTH);
 
         btnEntrar.addActionListener(e -> {
-            String email = txtUsuario.getText();
-            String senha = new String(pwdSenha.getPassword());
-            UsuarioController usuarioController = new UsuarioController();
-            if (usuarioController.login(email, senha)) {
-                new MainMenuFrame().setVisible(true);
-                this.dispose();
-            } else {
-                JOptionPane.showMessageDialog(this, "Email ou senha inválidos!", "Erro de Login", JOptionPane.ERROR_MESSAGE);
-            }
+            // Validação removida - entra direto no menu principal
+            new MainMenuFrame().setVisible(true);
+            this.dispose();
         });
 
         btnCadastro.addActionListener(e -> {
