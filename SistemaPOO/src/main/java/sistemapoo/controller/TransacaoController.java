@@ -9,12 +9,12 @@ import java.util.Date;
 public class TransacaoController {
     private final TransacaoDAO dao = new TransacaoDAO();
     
-    // Adicione o parâmetro Date data
+    
     public void criarTransacao(double valor, String tipo, String categoriaNome, String descricao, Date data) {
         Transacao transacao = new Transacao();
         transacao.setValor(valor);
         transacao.setTipo(tipo);
-        transacao.setData(data); // Use a data passada como parâmetro
+        transacao.setData(data); 
         
         CategoriaDAO categoriaDAO = new CategoriaDAO();
         Categoria categoria = categoriaDAO.buscarPorNome(categoriaNome);
