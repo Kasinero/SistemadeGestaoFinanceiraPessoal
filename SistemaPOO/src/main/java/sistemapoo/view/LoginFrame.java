@@ -18,7 +18,7 @@ public class LoginFrame extends JFrame {
     }
 
     private void configurarJanela() {
-        setTitle("Sistema Financeiro - Login");
+        setTitle("Bem vindo ao Sistema Financeiro! Faça seu Login");
         setSize(600, 450);
         setMinimumSize(new Dimension(500, 400));
         setLocationRelativeTo(null);
