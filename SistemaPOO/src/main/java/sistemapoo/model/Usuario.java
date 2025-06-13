@@ -16,7 +16,7 @@ public class Usuario {
    public Usuario() {
    }
 
-   // Getters e Setters
+   
    public int getId() {
       return id;
    }
