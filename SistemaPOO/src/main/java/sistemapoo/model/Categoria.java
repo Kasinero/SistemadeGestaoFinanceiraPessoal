@@ -14,7 +14,7 @@ public class Categoria {
    public Categoria() {
    }
 
-   // Getters e Setters
+
    public int getId() {
       return id;
    }
