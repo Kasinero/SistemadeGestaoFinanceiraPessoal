@@ -83,7 +83,7 @@ public class LoginFrame extends JFrame {
         mainPanel.add(buttonPanel, BorderLayout.SOUTH);
 
         btnEntrar.addActionListener(e -> {
-            // Validação removida - entra direto no menu principal
+    
             new MainMenuFrame().setVisible(true);
             this.dispose();
         });
