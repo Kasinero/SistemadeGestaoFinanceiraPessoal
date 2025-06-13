@@ -20,8 +20,6 @@ public class Transacao {
 
    public Transacao() {
    }
-
-   // Getters e Setters
    public int getId() {
       return id;
    }
