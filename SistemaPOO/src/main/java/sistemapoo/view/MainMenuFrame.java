@@ -9,9 +9,7 @@ public class MainMenuFrame extends JFrame {
     private JButton btnHistorico;
     private JButton btnResumo;
     private JButton btnCategorias;
-    private JButton btnSair;
-
-    // Removido btnUsuarios
+    private JButton 
 
     public MainMenuFrame() {
         configurarJanela();
